@@ -64197,7 +64197,7 @@ var $async$tV=A.Y(function(a,b){if(a===1)return A.Z(b,r)
 while(true)switch(s){case 0:j=J
 i=J
 s=2
-return A.a9(q.a.a7M(0,"http://127.0.0.1:8000/chat/",null,null,A.ahx("GET",$.ago()),null,t.z),$async$tV)
+return A.a9(q.a.a7M(0,"https://api.studentmitra.in/chat/",null,null,A.ahx("GET",$.ago()),null,t.z),$async$tV)
 case 2:p=j.aF(i.aj(b.a,"results")),o=q.f
 case 3:if(!p.v()){s=4
 break}n=p.gG(p)
@@ -64229,7 +64229,7 @@ break
 case 2:q.c=!0
 p=q.e.a.a
 i=i.n6()
-o=A.r2("http://127.0.0.1:8000/chat/")
+o=A.r2("https://api.studentmitra.in/chat/")
 A.fn("@@@@@@@@")
 A.fn(A.a(q.d.c,"_path"))
 A.fn(q.d.a)
@@ -64266,7 +64266,7 @@ while(true)switch(s){case 0:p=q.e.a.a
 s=p!==""?2:3
 break
 case 2:s=4
-return A.a9(q.a.uQ(0,"http://127.0.0.1:8000/chat/",null,A.aM(["uid",a,"msg",p],t.N,t.K),null,null,A.ahx("POST",$.ago()),null,t.z).bi(0,new A.Ql(q),t.H),$async$qK)
+return A.a9(q.a.uQ(0,"https://api.studentmitra.in/chat/",null,A.aM(["uid",a,"msg",p],t.N,t.K),null,null,A.ahx("POST",$.ago()),null,t.z).bi(0,new A.Ql(q),t.H),$async$qK)
 case 4:q.uK(0)
 case 3:return A.a_(null,r)}})
 return A.a0($async$qK,r)},
@@ -70594,7 +70594,7 @@ s($,"aza","an2",()=>new A.Gp(A.bM("/",!0),A.bM("[^/]$",!0),A.bM("^/",!0)))
 s($,"azc","Q6",()=>new A.J5(A.bM("[/\\\\]",!0),A.bM("[^/\\\\]$",!0),A.bM("^(\\\\\\\\[^\\\\]+\\\\[^\\\\/]+|[a-zA-Z]:[/\\\\])",!0),A.bM("^[/\\\\](?![/\\\\])",!0)))
 s($,"azb","BJ",()=>new A.IW(A.bM("/",!0),A.bM("(^[a-zA-Z][-+.a-zA-Z\\d]*://|[^/])$",!0),A.bM("[a-zA-Z][-+.a-zA-Z\\d]*://[^/]*",!0),A.bM("^/",!0)))
 s($,"az9","agr",()=>A.asY())
-r($,"aye","amA",()=>"Basic "+B.lm.iP(B.A.iP("admin:1234")))
+r($,"aye","amA",()=>"Basic "+B.lm.iP(B.A.iP("admin:@@4444@@")))
 r($,"ayf","ago",()=>{var q=t.N
 return A.aiB(A.aM(["authorization",$.amA()],q,q))})
 s($,"aAk","anM",()=>!t.Cm.b(A.b([],t.Z)))})();(function nativeSupport(){!function(){var s=function(a){var m={}
