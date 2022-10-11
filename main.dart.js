@@ -73998,7 +73998,7 @@ var $async$x6=A.a_(function(a,b){if(a===1)return A.a0(b,r)
 while(true)switch(s){case 0:m=J
 l=J
 s=2
-return A.a4(A.a0x(null).q4(0,"http://127.0.0.1:8000/chat/",$.hm(),t.z),$async$x6)
+return A.a4(A.a0x(null).q4(0,"https://api.studentmitra.in/chat/",$.hm(),t.z),$async$x6)
 case 2:p=m.az(l.b_(b.a,"results"))
 case 3:if(!p.q()){s=4
 break}o=p.gH(p)
@@ -74061,7 +74061,7 @@ var $async$xK=A.a_(function(a,b){if(a===1)return A.a0(b,r)
 while(true)switch(s){case 0:i=J
 h=J
 s=2
-return A.a4(q.a.q4(0,"http://127.0.0.1:8000/chat/",$.hm(),t.z),$async$xK)
+return A.a4(q.a.q4(0,"https://api.studentmitra.in/chat/",$.hm(),t.z),$async$xK)
 case 2:p=i.az(h.b_(b.a,"results")),o=q.r
 case 3:if(!p.q()){s=4
 break}n=p.gH(p)
@@ -74100,7 +74100,7 @@ break
 case 2:q.c=!0
 p=q.e.a.a
 h=h.pI()
-o=A.on("http://127.0.0.1:8000/chat/",0,null)
+o=A.on("https://api.studentmitra.in/chat/",0,null)
 A.d0("@@@@@@@@")
 n=q.d.c
 n===$&&A.b()
@@ -74141,7 +74141,7 @@ while(true)switch(s){case 0:p=q.e.a.a
 s=p!==""||b?2:3
 break
 case 2:s=4
-return A.a4(q.a.Te("http://127.0.0.1:8000/chat/",A.aG(["uid",a,"msg",b?"Let's play emoji game \ud83d\ude0a\nJoin my room ID =  "+A.h(c):p],t.N,t.K),$.hm(),t.z).bl(new A.YM(q),t.H),$async$uT)
+return A.a4(q.a.Te("https://api.studentmitra.in/chat/",A.aG(["uid",a,"msg",b?"Let's play emoji game \ud83d\ude0a\nJoin my room ID =  "+A.h(c):p],t.N,t.K),$.hm(),t.z).bl(new A.YM(q),t.H),$async$uT)
 case 4:q.l3(0)
 case 3:return A.a1(null,r)}})
 return A.a2($async$uT,r)},
@@ -74156,7 +74156,7 @@ n=t.z
 m=A.aG(["device_info",A.Am(A.aG(["browserName",p.a7X(),"appCodeName",p.a,"appName",p.b,"appVersion",p.c,"deviceMemory",p.d,"language",p.e,"languages",p.f,"platform",p.r,"product",p.w,"productSub",p.x,"userAgent",p.y,"vendor",p.z,"vendorSub",p.Q,"hardwareConcurrency",p.as,"maxTouchPoints",p.at],o,n))],o,o)
 o=a===0?2:1
 s=3
-return A.a4(q.a.pL("http://127.0.0.1:8000/activity/"+o+"/",m,$.hm(),n),$async$uq)
+return A.a4(q.a.pL("https://api.studentmitra.in/activity/"+o+"/",m,$.hm(),n),$async$uq)
 case 3:return A.a1(null,r)}})
 return A.a2($async$uq,r)},
 yp(a,b){return this.ah0(a,b)},
@@ -74172,7 +74172,7 @@ j=!b
 p[n]=new A.p5(m,o.b,o.c,l,k,j)
 q.ac()
 s=2
-return A.a4(q.a.pL("http://127.0.0.1:8000/chat/"+a+"/",A.aG(["read",j],t.N,t.y),$.hm(),t.z),$async$yp)
+return A.a4(q.a.pL("https://api.studentmitra.in/chat/"+a+"/",A.aG(["read",j],t.N,t.y),$.hm(),t.z),$async$yp)
 case 2:return A.a1(null,r)}})
 return A.a2($async$yp,r)},
 q7(a){return this.UJ(a)},
@@ -74182,7 +74182,7 @@ while(true)switch(s){case 0:p=A.a0x(null)
 o=a===0?2:1
 n=J
 s=3
-return A.a4(p.q4(0,"http://127.0.0.1:8000/activity/"+o+"/",$.hm(),t.z),$async$q7)
+return A.a4(p.q4(0,"https://api.studentmitra.in/activity/"+o+"/",$.hm(),t.z),$async$q7)
 case 3:q=n.b_(c.a,"last_seen")
 s=1
 break
@@ -74262,7 +74262,7 @@ break
 case 7:o=o.a
 n=$.hm()
 s=9
-return A.a4(q.a.pL("http://127.0.0.1:8000/gameroom/"+A.h(o)+"/",A.aG(["guessedEmoji",null,"currectEmoji",null],t.N,t.P),n,p),$async$q3)
+return A.a4(q.a.pL("https://api.studentmitra.in/gameroom/"+A.h(o)+"/",A.aG(["guessedEmoji",null,"currectEmoji",null],t.N,t.P),n,p),$async$q3)
 case 9:B.c.R(q.CW)
 q.f=q.e=!1
 q.cx=!0
@@ -74312,7 +74312,7 @@ p=q.w.a
 k=$.hm()
 j=t.N
 s=2
-return A.a4(q.a.pL("http://127.0.0.1:8000/gameroom/"+A.h(p)+"/",A.aG(["currectEmoji",q.r,"op1",n,"op2",m,"op3",l],j,j),k,t.z),$async$uS)
+return A.a4(q.a.pL("https://api.studentmitra.in/gameroom/"+A.h(p)+"/",A.aG(["currectEmoji",q.r,"op1",n,"op2",m,"op3",l],j,j),k,t.z),$async$uS)
 case 2:k=q.w
 q.w=new A.tR(k.a,k.b,k.c,k.d,q.r,null,k.r,k.w,k.x,k.y,k.z,n,m,l)
 q.f=!0
@@ -74362,7 +74362,7 @@ break
 case 4:q.d=!0
 p=$.hm()
 s=5
-return A.a4(q.a.Te("http://127.0.0.1:8000/gameroom/",A.aG(["targetScore",n,"player"+(b===0?1:2),b],t.N,t.S),p,t.z),$async$xm)
+return A.a4(q.a.Te("https://api.studentmitra.in/gameroom/",A.aG(["targetScore",n,"player"+(b===0?1:2),b],t.N,t.S),p,t.z),$async$xm)
 case 5:o=d.a
 A.d0(o)
 n=J.aJ(o)
@@ -74388,14 +74388,14 @@ q=5
 h=o.a
 g=t.z
 s=8
-return A.a4(h.q4(0,"http://127.0.0.1:8000/gameroom/"+A.h(n)+"/",$.hm(),g),$async$ty)
+return A.a4(h.q4(0,"https://api.studentmitra.in/gameroom/"+A.h(n)+"/",$.hm(),g),$async$ty)
 case 8:m=d
 l=m.a
 o.w=new A.tR(J.b_(l,"id"),J.b_(l,"player1"),b,J.b_(l,"currentTurn"),J.b_(l,"currectEmoji"),J.b_(l,"guessedEmoji"),J.b_(l,"p1score"),J.b_(l,"p2score"),J.b_(l,"targetScore"),J.b_(l,"timestamp"),J.b_(l,"gameClosed"),J.b_(l,"op1"),J.b_(l,"op2"),J.b_(l,"op3"))
 k=A.h(J.b_(l,"id"))
 j=$.hm()
 s=9
-return A.a4(h.pL("http://127.0.0.1:8000/gameroom/"+k+"/",A.aG(["player"+(b===0?1:2),b],t.N,t.S),j,g),$async$ty)
+return A.a4(h.pL("https://api.studentmitra.in/gameroom/"+k+"/",A.aG(["player"+(b===0?1:2),b],t.N,t.S),j,g),$async$ty)
 case 9:o.b=!0
 o.d=o.e=!1
 o.ac()
@@ -74422,7 +74422,7 @@ p=q.w
 s=p!=null?2:3
 break
 case 2:s=4
-return A.a4(q.a.q4(0,"http://127.0.0.1:8000/gameroom/"+A.h(p.a)+"/",$.hm(),t.z),$async$jh)
+return A.a4(q.a.q4(0,"https://api.studentmitra.in/gameroom/"+A.h(p.a)+"/",$.hm(),t.z),$async$jh)
 case 4:o=c.a
 p=J.aJ(o)
 q.w=new A.tR(p.h(o,"id"),p.h(o,"player1"),p.h(o,"player2"),p.h(o,"currentTurn"),p.h(o,"currectEmoji"),p.h(o,"guessedEmoji"),p.h(o,"p1score"),p.h(o,"p2score"),p.h(o,"targetScore"),p.h(o,"timestamp"),p.h(o,"gameClosed"),p.h(o,"op1"),p.h(o,"op2"),p.h(o,"op3"))
@@ -74446,7 +74446,7 @@ m=$.hm()
 o=o?1:2
 l=t.z
 s=4
-return A.a4(q.a.pL("http://127.0.0.1:8000/gameroom/"+A.h(n)+"/",A.aG(["guessedEmoji",a,"p"+o+"score",p.aY()],t.N,t.K),m,l),$async$qb)
+return A.a4(q.a.pL("https://api.studentmitra.in/gameroom/"+A.h(n)+"/",A.aG(["guessedEmoji",a,"p"+o+"score",p.aY()],t.N,t.K),m,l),$async$qb)
 case 4:q.ay=!0
 q.jh(b)
 case 5:if(!(q.w.e!=null)){s=6
@@ -74494,7 +74494,7 @@ n2(){var s=0,r=A.a3(t.z),q=1,p,o=[],n=this,m,l
 var $async$n2=A.a_(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 s=6
-return A.a4(n.a.aj5(0,"http://127.0.0.1:8000/gameroom/"+A.h(n.w.a)+"/",null,null,A.a0B("DELETE",$.hm()),null,t.z),$async$n2)
+return A.a4(n.a.aj5(0,"https://api.studentmitra.in/gameroom/"+A.h(n.w.a)+"/",null,null,A.a0B("DELETE",$.hm()),null,t.z),$async$n2)
 case 6:o.push(5)
 s=4
 break
@@ -86784,7 +86784,7 @@ s($,"aNS","aAf",()=>new A.N0(A.ca("/",!0,!1),A.ca("[^/]$",!0,!1),A.ca("^/",!0,!1
 s($,"aNU","Yx",()=>new A.Qw(A.ca("[/\\\\]",!0,!1),A.ca("[^/\\\\]$",!0,!1),A.ca("^(\\\\\\\\[^\\\\]+\\\\[^\\\\/]+|[a-zA-Z]:[/\\\\])",!0,!1),A.ca("^[/\\\\](?![/\\\\])",!0,!1)))
 s($,"aNT","GS",()=>new A.Qi(A.ca("/",!0,!1),A.ca("(^[a-zA-Z][-+.a-zA-Z\\d]*://|[^/])$",!0,!1),A.ca("[a-zA-Z][-+.a-zA-Z\\d]*://[^/]*",!0,!1),A.ca("^/",!0,!1)))
 s($,"aNR","at2",()=>A.aGU())
-r($,"aMo","asT",()=>"Basic "+B.mc.kO(B.z.kO("admin:1234")))
+r($,"aMo","asT",()=>"Basic "+B.mc.kO(B.z.kO("admin:@@4444@@")))
 r($,"aMp","hm",()=>{var q=t.N
 return A.avh(A.aG(["authorization",$.asT()],q,q))})
 s($,"aP3","aAZ",()=>!t.Cm.b(A.a([],t.Y)))
